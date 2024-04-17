@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de chance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="roue-container">
+            <div id="roue" class="roue">
+                <img src="roue.png" alt="Roue" class="roue-image">
+                <div class="section" data-points="10"></div>
+                <div class="section" data-points="20"></div>
+                <div class="section" data-points="30"></div>
+                <div class="section" data-points="40"></div>
+                <div class="section" data-points="50"></div>
+                <div class="section" data-points="60"></div>
+            </div>
+        </div>
+        <button id="boutonTourner" class="bouton">Tourner la roue</button>
+        <div id="score">Score: 0</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
